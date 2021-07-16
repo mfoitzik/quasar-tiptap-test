@@ -4,7 +4,7 @@ A test app for trying TipTap with Quasar 2 / Vue 3
 
 ## Install the dependencies
 ```bash
-Clone this repo
+Clone this repo (git clone https://github.com/mfoitzik/quasar-tiptap-test.git)
 yarn
 ```
 
