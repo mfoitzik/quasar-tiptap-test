@@ -5,7 +5,7 @@
     <div>
       <q-btn @click="showContent">Show Content in Console</q-btn>
     </div>
-    <editor-content id="testid" :editor="editor" />
+    <editor-content :editor="editor" />
   </q-page>
 </template>
 
@@ -25,7 +25,6 @@ export default {
   },
   methods:  {
     showContent() {
-      //const el = document.getElementById('testid');
       console.log(this.editor.getHTML());
     }
   },
